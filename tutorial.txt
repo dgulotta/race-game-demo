@@ -1,0 +1,11 @@
+Your job is to design race tracks.
+
+At the top of the screen are the available pieces of track.  Click on one to select it, then click inside the center rectangle to place the track.  To rotate the track before placing it, press E or R.  To flip the track, press F.  Some pieces of track have traffic lights.  To toggle the lights, press Q.
+
+The piece of track with the checkerboard pattern is the start/finish line.  Each track must have exactly one start/finish line.
+
+The goal is displayed on the left.  In Level 0, there are 10 cars labeled 0-9, and your goal is to design a track so that no cars finish.  If a car reaches a dead end, it will not finish the race.  So just place a start/finish line and press play.
+
+Click on the house icon at the bottom to go back to the level select screen.
+
+In level 1, there are again 10 cars labeled 0-9, and your goal is to design a track so that they finish the race in that order.  Build a complete track and press play.
