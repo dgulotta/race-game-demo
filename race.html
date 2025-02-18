@@ -22,17 +22,17 @@
 
             body {
                 display: flex;
-                align-items: center;
-                justify-content: center;
+                align-items: safe center;
+                justify-content: safe center;
             }
         </style>
-    <link rel="modulepreload" href="/race-game-demo/race-game-rust.js" crossorigin=anonymous integrity="sha384-V1GL8lOXIfZF582s9G+8YtVCYWg6vxghd452CkGNWkyClBq5BZfeulRMpheGg5tT"><link rel="preload" href="/race-game-demo/race-game-rust_bg.wasm" crossorigin=anonymous integrity="sha384-2PQYDOUsMJDbsmnh7FKG/jJu5Q+0Ar9kmZI5EZO4UNou53WkoRiO0QPVi6B5t3NR" as="fetch" type="application/wasm"></head>
+    <link rel="modulepreload" href="./race-game-rust.js" crossorigin=anonymous integrity="sha384-WJFardAY4J2QoLxg1BimHfsofDbOJHER3DiC/X5lFCBrFj/HqOFj4/dtMXyU5KHT"><link rel="preload" href="./race-game-rust_bg.wasm" crossorigin=anonymous integrity="sha384-rMNPUGiHSOsEtCky2qRlAnDKBgKsGtiF9PMNbDdRKlDiMeA1K7/80u03qhdph/wY" as="fetch" type="application/wasm"></head>
     <body>
-        <canvas id="notan_app"></canvas>
+        <canvas id="race"></canvas>
     
-<script type="module" nonce="jbT93s5dVCycVSWkakISug==">
-import init, * as bindings from '/race-game-demo/race-game-rust.js';
-const wasm = await init({ module_or_path: '/race-game-demo/race-game-rust_bg.wasm' });
+<script type="module" nonce="yazNclCiwYdSRSGpwggGuQ==">
+import init, * as bindings from './race-game-rust.js';
+const wasm = await init({ module_or_path: './race-game-rust_bg.wasm' });
 
 
 window.wasmBindings = bindings;
